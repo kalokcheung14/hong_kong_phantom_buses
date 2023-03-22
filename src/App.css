@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 8px;
 }
 
 .App-logo {
@@ -26,6 +27,70 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Header {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: ".SF NS Mono", monospace;
+}
+
+.Row {
+  margin: 12px;
+  display: grid;
+  grid-template-areas:
+    'route stop eta'
+    'route dest eta';
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.route {
+  grid-area: route;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.stop {
+  grid-area: stop;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.dest {
+  grid-area: dest;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.Eta-time-list {
+  display: flex;
+  flex-direction: column;
+  grid-area: eta;
+  align-items: end;
+  padding-right: 8px;
+}
+
+.Eta-time {
+  font-family: ".SF NS Mono", monospace;
+  font-weight: bold;
+}
+
+.Eta-time-real {
+  color: red;
+  font-size: 20px;
+}
+
+.Eta-time-expected {
+  color: black;
+  font-size: 20px;
 }
 
 @keyframes App-logo-spin {

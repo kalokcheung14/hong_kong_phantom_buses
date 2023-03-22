@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Bus Found
+
+This is a project that make use of bus_got_lost API gateway.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
