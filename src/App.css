@@ -1,6 +1,31 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("fonts/Ubuntu-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
-  margin: 8px;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: Ubuntu, serif;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .App {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 .App-logo {
@@ -32,7 +57,7 @@
 .Header {
   font-weight: bold;
   font-size: 30px;
-  font-family: ".SF NS Mono", monospace;
+  margin-bottom: 40px;
 }
 
 .Row {
@@ -41,9 +66,10 @@
   grid-template-areas:
     'route stop eta'
     'route dest eta';
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   padding: 4px;
   border-radius: 10px;
+  background: azure;
+  grid-gap: 10px;
 }
 
 .route {
@@ -76,21 +102,25 @@
   grid-area: eta;
   align-items: end;
   padding-right: 8px;
+  justify-content: center;
 }
 
 .Eta-time {
-  font-family: ".SF NS Mono", monospace;
   font-weight: bold;
 }
 
 .Eta-time-real {
   color: red;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .Eta-time-expected {
   color: black;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.ErrorBox {
+  margin: 18px;
 }
 
 @keyframes App-logo-spin {
