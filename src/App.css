@@ -54,10 +54,21 @@
   color: #61dafb;
 }
 
+.App-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .Header {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 40px;
+}
+
+.Lang-toggle {
+  float: right;
+  margin-right: 30px
 }
 
 .Row {

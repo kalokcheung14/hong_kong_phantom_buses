@@ -1,9 +1,10 @@
 import './App.css';
 import { Provider, useDispatch, useSelector } from 'react-redux'
-import { store } from './Store';
+import store from './Store';
 import { useEffect } from "react";
 import getEta from './Api';
 import logo from './logo.svg';
+import { languageToggled, LANGUAGE_EN } from './LangSlice';
 
 function BusEtaTime(props) {
   const defaultTimeClass = "Eta-time";
@@ -58,8 +59,9 @@ function BusEtaRow(props) {
 
 function Main() {
     const dispatch = useDispatch();
-    const data = useSelector(state => state.data);
-    const loading = useSelector(state => state.loading);
+    const data = useSelector(state => state.eta.data);
+    const loading = useSelector(state => state.eta.loading);
+    const language = useSelector(state => state.lang.language);
     let result;
 
     // Display loading screen if data is being loaded
@@ -88,9 +90,19 @@ function Main() {
         return () => clearTimeout(timeout);
     }, [dispatch]);
 
+    const toggleLanguage = () => {
+      dispatch(languageToggled());
+    };
+
   return (
     <div className="App">
-      <div className="Header">Bus Found</div>
+      <div>
+        <div className="Header">
+          Bus Found
+         <button onClick={toggleLanguage} className="Lang-toggle">{language == LANGUAGE_EN? "中文":"English"}</button>
+        </div>
+      </div>
+
         {result}
     </div>
   );
