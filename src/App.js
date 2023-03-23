@@ -6,13 +6,23 @@ import getEta from './Api';
 import logo from './logo.svg';
 
 function BusEtaTime(props) {
-    // Display an ETA item of a bus route
+  const defaultTimeClass = "Eta-time";
+  let timeClass;
+
+  if (props.isScheduled) {
+    timeClass = defaultTimeClass + " Eta-time-expected";
+  } else {
+    timeClass = defaultTimeClass + " Eta-time-real";
+  }
+
+
+  // Display an ETA item of a bus route
   return (
       <div className="Eta-time-row">
-        <div>
-            {props.real?
-                <span className="Eta-time Eta-time-real">{props.minute}</span> :
-                <span className="Eta-time Eta-time-expected">{props.minute}</span>
+        <div className={(props.index == 0)?"Eta-time-first":""}>
+            {props.isScheduled?
+                <span className={timeClass}>{props.minute}</span> :
+                <span className={timeClass}>{props.minute}</span>
             }
             &nbsp;min
         </div>
@@ -27,7 +37,7 @@ function BusEtaTimeList(props) {
       <span className="Eta-time-list">
         {
             props.eta.map(function (item, i) {
-                return <BusEtaTime key={i} minute={item.time} remark={item.remarkEn}/>
+                return <BusEtaTime key={i} index={i} minute={item.time} remark={item.remarkEn} isScheduled={item.isScheduled}/>
             })
         }
       </span>

@@ -1,4 +1,5 @@
-import { GET_ETA, GET_ETA_ERROR,mockData } from "./Store";
+import { GET_ETA, GET_ETA_ERROR } from "./Store";
+import mockData from "./MockData";
 
 const getEta = () => async dispatch => {
     try {

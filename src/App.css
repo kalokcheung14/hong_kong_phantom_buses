@@ -90,6 +90,8 @@
   justify-content: center;
   align-items: center;
   font-size: 12px;
+  padding-top: 18px;
+  padding-bottom: 14px;
 }
 
 .dest {
@@ -98,6 +100,8 @@
   justify-content: center;
   align-items: center;
   font-size: 12px;
+  padding-top: 14px;
+  padding-bottom: 18px;
 }
 
 .Eta-time-list {
@@ -111,8 +115,9 @@
 .Eta-time-row {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
+  flex: 1;
 }
 
 .Eta-time {
@@ -121,17 +126,19 @@
 
 .Eta-time-real {
   color: red;
-  font-size: 15px;
+}
+
+.Eta-time-first {
+  font-size: 20px;
 }
 
 .Eta-time-expected {
   color: black;
-  font-size: 15px;
 }
 
 .Eta-time-remark {
   color:black;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .ErrorBox {
