@@ -65,6 +65,10 @@
   display: grid;
   grid-template-areas:
     'route stop eta'
+    'route stop eta'
+    'route stop eta'
+    'route dest eta'
+    'route dest eta'
     'route dest eta';
   padding: 4px;
   border-radius: 10px;
@@ -100,8 +104,14 @@
   display: flex;
   flex-direction: column;
   grid-area: eta;
-  align-items: end;
   padding-right: 8px;
+  justify-content: center;
+}
+
+.Eta-time-row {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
   justify-content: center;
 }
 
@@ -117,6 +127,11 @@
 .Eta-time-expected {
   color: black;
   font-size: 15px;
+}
+
+.Eta-time-remark {
+  color:black;
+  font-size: 8px;
 }
 
 .ErrorBox {

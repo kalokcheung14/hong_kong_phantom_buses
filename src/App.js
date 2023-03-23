@@ -8,13 +8,16 @@ import logo from './logo.svg';
 function BusEtaTime(props) {
     // Display an ETA item of a bus route
   return (
-      <span>
-        {props.real?
-            <span className="Eta-time Eta-time-real">{props.minute}</span> :
-            <span className="Eta-time Eta-time-expected">{props.minute}</span>
-        }
-        &nbsp;min
-      </span>
+      <div className="Eta-time-row">
+        <div>
+            {props.real?
+                <span className="Eta-time Eta-time-real">{props.minute}</span> :
+                <span className="Eta-time Eta-time-expected">{props.minute}</span>
+            }
+            &nbsp;min
+        </div>
+          <div className="Eta-time-remark">{props.remark? <span>({props.remark})</span> : <span></span>}</div>
+      </div>
   );
 }
 
@@ -24,7 +27,7 @@ function BusEtaTimeList(props) {
       <span className="Eta-time-list">
         {
             props.eta.map(function (item, i) {
-                return <BusEtaTime key={i} minute={item.time}/>
+                return <BusEtaTime key={i} minute={item.time} remark={item.remarkEn}/>
             })
         }
       </span>
@@ -70,7 +73,7 @@ function Main() {
         // Get ETA data from API
         const timeout = setTimeout(() => {
             dispatch(getEta())
-        }, 3000);
+        }, 1000);
 
         return () => clearTimeout(timeout);
     }, [dispatch]);

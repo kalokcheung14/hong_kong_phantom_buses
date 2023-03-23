@@ -15,12 +15,12 @@ const mockData = [
             },
             {
                 time: 8,
-                remarkEn: "",
+                remarkEn: "Scheduled Bus",
                 remarkTc: ""
             },
             {
                 time: 20,
-                remarkEn: "",
+                remarkEn: "Scheduled Bus",
                 remarkTc: ""
             }
         ]
