@@ -1,9 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const GET_ETA = 'GET_ETA';
-const GET_ETA_ERROR = 'GET_ETA_ERROR';
-const TOGGLE_LANGUAGE = 'TOGGLE_LANGUAGE';
-
 const initState = {
     data: [],
     loading: true

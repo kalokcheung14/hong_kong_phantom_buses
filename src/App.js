@@ -4,7 +4,8 @@ import store from './Store';
 import { useEffect } from "react";
 import getEta from './Api';
 import logo from './logo.svg';
-import { languageToggled, LANGUAGE_EN } from './LangSlice';
+import { languageToggled } from './LangSlice';
+import { translateEta } from "./Translation";
 
 function BusEtaTime(props) {
   const defaultTimeClass = "Eta-time";
@@ -20,7 +21,7 @@ function BusEtaTime(props) {
   // Display an ETA item of a bus route
   return (
       <div className="Eta-time-row">
-        <div className={(props.index == 0)?"Eta-time-first":""}>
+        <div className={(props.index === 0)?"Eta-time-first":""}>
             {props.isScheduled?
                 <span className={timeClass}>{props.minute}</span> :
                 <span className={timeClass}>{props.minute}</span>
@@ -38,7 +39,7 @@ function BusEtaTimeList(props) {
       <span className="Eta-time-list">
         {
             props.eta.map(function (item, i) {
-                return <BusEtaTime key={i} index={i} minute={item.time} remark={item.remarkEn} isScheduled={item.isScheduled}/>
+                return <BusEtaTime key={i} index={i} minute={item.time} remark={item.remark} isScheduled={item.isScheduled}/>
             })
         }
       </span>
@@ -46,12 +47,14 @@ function BusEtaTimeList(props) {
 }
 
 function BusEtaRow(props) {
+    const strings = useSelector(state => state.lang.strings);
+
     // Display a row of route ETA
   return (
       <div className="Row">
         <span className="route">{props.route}</span>
         <span className="stop">{props.stop}</span>
-        <span className="dest">TO: {props.dest}</span>
+        <span className="dest">{strings.to}: {props.dest}</span>
         <BusEtaTimeList eta={props.eta}/>
       </div>
   );
@@ -62,18 +65,21 @@ function Main() {
     const data = useSelector(state => state.eta.data);
     const loading = useSelector(state => state.eta.loading);
     const language = useSelector(state => state.lang.language);
+    const strings = useSelector(state => state.lang.strings);
     let result;
 
     // Display loading screen if data is being loaded
     if (!loading) {
         // Display Bus ETA by passing the arguments into BusEtaRows if data is not empty, otherwise display a message.
         if (data.length > 0) {
-            result = data.map(function (item, i) {
-                return <BusEtaRow key={i} route={item.route} stop={item.stopNameEn} dest={item.destEn}
+            const translatedData = translateEta(data, language);
+
+            result = translatedData.map(function (item, i) {
+                return <BusEtaRow key={i} route={item.route} stop={item.stopName} dest={item.dest}
                                   eta={item.etaDetails}/>
             })
         } else {
-            result = <div className="ErrorBox">No ETA available</div>;
+            result = <div className="ErrorBox">{strings.etaError}</div>;
         }
     } else {
         result = <div className="ErrorBox"><img className="App-logo" src={logo} alt=""/></div>;
@@ -99,7 +105,7 @@ function Main() {
       <div>
         <div className="Header">
           Bus Found
-         <button onClick={toggleLanguage} className="Lang-toggle">{language == LANGUAGE_EN? "中文":"English"}</button>
+         <button onClick={toggleLanguage} className="Lang-toggle">{strings.langName}</button>
         </div>
       </div>
 

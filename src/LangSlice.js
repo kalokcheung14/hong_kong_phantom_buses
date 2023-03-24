@@ -1,18 +1,27 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { translateStrings } from "./Translation";
+import { stringList } from "./Strings";
 
 const LANGUAGE_EN = "EN";
 const LANGUAGE_ZH = "ZH";
 
 const initState = {
-    language: LANGUAGE_EN
+    language: LANGUAGE_EN,
+    strings: translateStrings(stringList, LANGUAGE_EN)
 };
 
 const langSlice = createSlice({
   name: 'lang',
   initialState: initState,
   reducers: {
-    languageToggled(state, action) {
-      state.language = (state.language == LANGUAGE_EN)? LANGUAGE_ZH: LANGUAGE_EN;
+    languageToggled(state) {
+      if (state.language === LANGUAGE_EN) {
+        state.language = LANGUAGE_ZH;
+        state.strings =  translateStrings(stringList, LANGUAGE_ZH);
+      } else {
+        state.language = LANGUAGE_EN;
+        state.strings =  translateStrings(stringList, LANGUAGE_EN);
+      }
     }
   }
 });

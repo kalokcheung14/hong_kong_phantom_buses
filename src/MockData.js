@@ -2,7 +2,9 @@ const mockData = [
     {
         route: "278X",
         destEn: "TSUEN WAN (NINA TOWER)",
+        destTc: "荃灣(如心廣場)",
         stopNameEn: "KIN CHUEN STREET KWAI CHUNG",
+        stopNameTc: "葵涌健全街",
         etaDetails: [
             {
                 time: 2,
@@ -13,13 +15,13 @@ const mockData = [
             {
                 time: 8,
                 remarkEn: "Scheduled Bus",
-                remarkTc: "",
+                remarkTc: "原定班次",
                 isScheduled: true
             },
             {
                 time: 20,
                 remarkEn: "Scheduled Bus",
-                remarkTc: "",
+                remarkTc: "原定班次",
                 isScheduled: true
             }
         ]
@@ -27,7 +29,9 @@ const mockData = [
     {
         route: "235",
         destEn: "TSUEN WAN (CIRCULAR)",
+        destTc: "荃灣(循環線)",
         stopNameEn: "KIN CHUEN STREET KWAI CHUNG",
+        stopNameTc: "葵涌健全街",
         etaDetails: [
             {
                 time: 2,
@@ -38,13 +42,13 @@ const mockData = [
             {
                 time: 8,
                 remarkEn: "Scheduled Bus",
-                remarkTc: "",
+                remarkTc: "原定班次",
                 isScheduled: true
             },
             {
                 time: 20,
                 remarkEn: "Scheduled Bus",
-                remarkTc: "",
+                remarkTc: "原定班次",
                 isScheduled: true
             }
         ]
@@ -52,7 +56,9 @@ const mockData = [
     {
         route: "48X",
         destEn: "TSUEN WAN (BAYVIEW GARDEN)",
+        destTc: "荃灣(灣景花園)",
         stopNameEn: "KIN CHUEN STREET KWAI CHUNG",
+        stopNameTc: "葵涌健全街",
         etaDetails: [
             {
                 time: 2,
@@ -74,7 +80,9 @@ const mockData = [
     {
         route: "290X",
         destEn: "TSUEN WAN WEST STATION",
+        destTc: "荃灣西站",
         stopNameEn: "KIN CHUEN STREET KWAI CHUNG",
+        stopNameTc: "葵涌健全街",
         etaDetails: [
             {
                 time: 2,
@@ -96,7 +104,9 @@ const mockData = [
     {
         route: "290",
         destEn: "TSUEN WAN WEST STATION",
+        destTc: "荃灣西站",
         stopNameEn: "KIN CHUEN STREET KWAI CHUNG",
+        stopNameTc: "葵涌健全街",
         etaDetails: [
             {
                 time: 2,
@@ -118,7 +128,9 @@ const mockData = [
     {
         route: "73X",
         destEn: "TSUEN WAN (NINA TOWER)",
+        destTc: "荃灣(如心廣場)",
         stopNameEn: "KIN CHUEN STREET KWAI CHUNG",
+        stopNameTc: "葵涌健全街",
         etaDetails: [
             {
                 time: 2,
