@@ -1,4 +1,8 @@
 export const stringList = {
+    title: {
+        tc: "香港鬼車",
+        en: "Hong Kong Phantom Buses"
+    },
     to: {
         en: "TO",
         tc: "往"

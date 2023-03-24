@@ -5,9 +5,11 @@ import { stringList } from "./Strings";
 const LANGUAGE_EN = "en";
 const LANGUAGE_ZH = "tc";
 
+const defaultLang = LANGUAGE_ZH;
+
 const initState = {
-    language: LANGUAGE_EN,
-    strings: translateStrings(stringList, LANGUAGE_EN)
+    language: defaultLang,
+    strings: translateStrings(stringList, defaultLang)
 };
 
 const langSlice = createSlice({

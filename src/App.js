@@ -2,10 +2,10 @@ import './App.css';
 import { Provider, useDispatch, useSelector } from 'react-redux'
 import store from './Store';
 import { useEffect } from "react";
-import getEta from './Api';
 import logo from './logo.svg';
 import { languageToggled } from './LangSlice';
 import { translateEta } from "./Translation";
+import { fetchEta } from "./EtaSlice";
 
 function BusEtaTime(props) {
     const strings = useSelector(state => state.lang.strings);
@@ -91,7 +91,7 @@ function Main() {
         console.log("useEffect");
         // Get ETA data from API
         const timeout = setTimeout(() => {
-            dispatch(getEta())
+            dispatch(fetchEta());
         }, 1000);
 
         return () => clearTimeout(timeout);
@@ -105,7 +105,7 @@ function Main() {
     <div className="App">
       <div>
         <div className="Header">
-          Bus Found
+            <span>{strings.title}</span>
          <button onClick={toggleLanguage} className="Lang-toggle">{strings.langName}</button>
         </div>
       </div>

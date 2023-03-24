@@ -1,0 +1,662 @@
+{
+  "busRoutes": [
+    {
+      "updateTime": "15:29:48",
+      "route": "278X",
+      "destEn": "TSUEN WAN (NINA TOWER)",
+      "destTc": "荃灣(如心廣場)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 6,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 16,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 28,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "235",
+      "destEn": "TSUEN WAN (CIRCULAR)",
+      "destTc": "荃灣(循環線)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 8,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 18,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 29,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "48X",
+      "destEn": "TSUEN WAN (BAYVIEW GARDEN)",
+      "destTc": "荃灣(灣景花園)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 0,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 4,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 5,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "290X",
+      "destEn": "TSUEN WAN WEST STATION",
+      "destTc": "荃灣西站",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 7,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 39,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "290",
+      "destEn": "TSUEN WAN WEST STATION",
+      "destTc": "荃灣西站",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 11,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 25,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 45,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "40",
+      "destEn": "TSUEN WAN (BELVEDERE GARDEN)",
+      "destTc": "荃灣(麗城花園)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 6,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 27,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 36,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "73X",
+      "destEn": "TSUEN WAN (NINA TOWER)",
+      "destTc": "荃灣(如心廣場)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 6,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 12,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 22,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "30",
+      "destEn": "TSUEN WAN (ALLWAY GARDENS)",
+      "destTc": "荃灣(荃威花園)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 20,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 49,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "31",
+      "destEn": "SHEK LEI (CIRCULAR)",
+      "destTc": "石籬(循環線)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 0,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 15,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 25,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "32M",
+      "destEn": "CHEUNG SHAN (CIRCULAR)",
+      "destTc": "象山(循環線)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 16,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 36,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 56,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "290A",
+      "destEn": "TSUEN WAN WEST STATION",
+      "destTc": "荃灣西站",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 0,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 24,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 44,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "67A",
+      "destEn": "TUEN MUN (PO TIN ESTATE)",
+      "destTc": "屯門(寶田邨)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 0,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 17,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 37,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "61M",
+      "destEn": "TUEN MUN (YAU OI SOUTH)",
+      "destTc": "屯門(友愛南)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 9,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 21,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 33,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "42C",
+      "destEn": "TSING YI (CHEUNG HANG ESTATE)",
+      "destTc": "青衣(長亨邨)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 1,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 11,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 18,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "58M",
+      "destEn": "TUEN MUN (LEUNG KING ESTATE)",
+      "destTc": "屯門(良景邨)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 0,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 6,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 13,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "69M",
+      "destEn": "TIN SHUI WAI TOWN CENTRE",
+      "destTc": "天水圍市中心",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 15,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 35,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 47,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "265M",
+      "destEn": "TIN HENG ESTATE",
+      "destTc": "天恆邨",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 12,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 32,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 52,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "57M",
+      "destEn": "TUEN MUN (SHAN KING ESTATE)",
+      "destTc": "屯門(山景邨)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 2,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 23,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 43,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "38A",
+      "destEn": "TSUEN WAN (RIVIERA GARDENS)",
+      "destTc": "荃灣(海濱花園)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 6,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 36,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "67M",
+      "destEn": "TUEN MUN (SIU HONG COURT)",
+      "destTc": "屯門(兆康苑)",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 0,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 11,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 23,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "59A",
+      "destEn": "TUEN MUN PIER HEAD",
+      "destTc": "屯門碼頭",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 7,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "269M",
+      "destEn": "TIN YAN ESTATE",
+      "destTc": "天恩邨",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 17,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 42,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "A32",
+      "destEn": "KWAI CHUNG ESTATE",
+      "destTc": "葵涌邨",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 15,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        },
+        {
+          "time": 15,
+          "remarkEn": "",
+          "remarkTc": "",
+          "isScheduled": false
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "E32",
+      "destEn": "ASIAWORLD EXPO",
+      "destTc": "機場博覽館",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 8,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 18,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 38,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    },
+    {
+      "updateTime": "15:29:48",
+      "route": "E32A",
+      "destEn": "Tung Chung Development Pier",
+      "destTc": "東涌發展碼頭",
+      "stopNameEn": "KIN CHUEN STREET KWAI CHUNG",
+      "stopNameTc": "葵涌健全街",
+      "etaDetails": [
+        {
+          "time": 17,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 38,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        },
+        {
+          "time": 58,
+          "remarkEn": "Scheduled Bus",
+          "remarkTc": "原定班次",
+          "isScheduled": true
+        }
+      ]
+    }
+  ]
+}

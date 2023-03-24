@@ -1,13 +1,7 @@
-import { etaGot } from "./EtaSlice";
-import mockData from "./MockData";
+import axios from 'axios';
 
-const getEta = () => async dispatch => {
-    try {
-        // const result = await axios.get("http://localhost:8082/eta?coordinate=22.370503,114.130902");
-        dispatch(etaGot({mockData}));
-    } catch (e) {
-        console.log(e);
-    }
+const getEta = () => {
+    return axios.get('/mockData.json');
 };
 
 export default getEta;
