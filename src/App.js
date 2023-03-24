@@ -8,6 +8,7 @@ import { languageToggled } from './LangSlice';
 import { translateEta } from "./Translation";
 
 function BusEtaTime(props) {
+    const strings = useSelector(state => state.lang.strings);
   const defaultTimeClass = "Eta-time";
   let timeClass;
 
@@ -26,7 +27,7 @@ function BusEtaTime(props) {
                 <span className={timeClass}>{props.minute}</span> :
                 <span className={timeClass}>{props.minute}</span>
             }
-            &nbsp;min
+            &nbsp;{strings.minute}
         </div>
           <div className="Eta-time-remark">{props.remark? <span>({props.remark})</span> : <span></span>}</div>
       </div>

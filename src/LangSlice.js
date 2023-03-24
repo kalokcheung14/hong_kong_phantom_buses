@@ -2,8 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 import { translateStrings } from "./Translation";
 import { stringList } from "./Strings";
 
-const LANGUAGE_EN = "EN";
-const LANGUAGE_ZH = "ZH";
+const LANGUAGE_EN = "en";
+const LANGUAGE_ZH = "tc";
 
 const initState = {
     language: LANGUAGE_EN,
