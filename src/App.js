@@ -90,12 +90,21 @@ function Main() {
     useEffect(function () {
         console.log("useEffect");
         // Get ETA data from API
-        const timeout = setTimeout(() => {
-            dispatch(fetchEta());
-        }, 1000);
+        let interval;
 
-        return () => clearTimeout(timeout);
-    }, [dispatch]);
+        // Only fetch data immediately when first loaded
+        if (loading) {
+            dispatch(fetchEta());
+        }
+
+        // Set interval to fetch ETA data periodically
+        interval = setInterval(() => {
+            dispatch(fetchEta());
+        }, 20000);
+
+        // Clear interval when unmount
+        return () => clearInterval(interval);
+    }, [dispatch, loading]);
 
     const toggleLanguage = () => {
       dispatch(languageToggled());

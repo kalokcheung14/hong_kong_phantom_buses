@@ -1,7 +1,11 @@
 import axios from 'axios';
 
-const getEta = () => {
+const getMockEta = () => {
     return axios.get('/mockData.json');
 };
 
-export default getEta;
+const getEta = () => {
+    return axios.get('http://localhost:8082/eta?coordinate=22.370503, 114.130902');
+}
+
+export { getEta, getMockEta };

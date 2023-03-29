@@ -20,10 +20,9 @@ const etaSlice = createSlice({
   extraReducers: (builder) => {
     builder
         .addCase(fetchEta.pending, (state) => {
-          state.loading = true;
+          // state.loading = true;
         })
         .addCase(fetchEta.fulfilled, (state, { payload }) => {
-          console.log(payload);
           state.data = payload;
           state.loading = false;
         })
