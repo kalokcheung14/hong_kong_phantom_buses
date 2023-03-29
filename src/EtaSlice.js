@@ -1,5 +1,5 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
-import getEta from "./Api";
+import { getEta } from "./Api";
 
 const initState = {
     data: [],
