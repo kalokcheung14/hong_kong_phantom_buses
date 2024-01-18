@@ -1,4 +1,4 @@
-# Bus Found
+# Hong Kong Phantom Buses
 
 This is a project that make use of bus_got_lost API gateway.
 
