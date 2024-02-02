@@ -1,6 +1,6 @@
 # Hong Kong Phantom Buses
 
-This is a project that make use of bus_got_lost API gateway.
+This is a project that make use of hong_kong_phantom_buses_api API gateway.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
