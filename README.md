@@ -4,6 +4,14 @@ This is a project that make use of hong_kong_phantom_buses_api API gateway.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Overview
+
+This is a React User Interface built to consume data from: https://github.com/kalokcheung14/hong_kong_phantom_buses_api
+
+<img src="https://res.cloudinary.com/dlqyw4big/image/upload/v1717172161/Screenshot_2024-05-31_at_12.11.38_PM_vdvekp.png" style="width:50%"/>
+This web app is responsive. That means it can also be used on mobile devices.
+<img src="https://res.cloudinary.com/dlqyw4big/image/upload/v1717172161/Screenshot_2024-05-31_at_12.11.26_PM_kutsms.png" style="width:50%"/>
+
 ## Available Scripts
 
 In the project directory, you can run:
