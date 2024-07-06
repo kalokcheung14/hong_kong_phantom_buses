@@ -5,7 +5,8 @@ const getMockEta = () => {
 };
 
 const getEta = () => {
-    return axios.get('http://localhost:8082/eta?coordinate=22.370503, 114.130902');
+    const apiUrl = process.env.REACT_APP_API_BASE_URL;
+    return axios.get(`${apiUrl}/eta?coordinate=22.370503,114.130902`);
 }
 
 export { getEta, getMockEta };
