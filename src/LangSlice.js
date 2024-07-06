@@ -5,7 +5,7 @@ import { stringList } from "./Strings";
 const LANGUAGE_EN = "en";
 const LANGUAGE_ZH = "tc";
 
-const defaultLang = LANGUAGE_ZH;
+const defaultLang = LANGUAGE_EN;
 
 const initState = {
     language: defaultLang,
